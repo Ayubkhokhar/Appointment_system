@@ -3,6 +3,9 @@
 
 <head>
     <title>doctor profile</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2cd74b0cc3.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="images/favicone.png">
     <link rel="stylesheet" href="css/my-style.css">
@@ -14,13 +17,13 @@
             <div class="header-grid">
                 <!-- logo section -->
                 <div class="logo">
-                    <img src="images/logo.png">
+                    <img src="./images/logo.png">
                 </div>
                 <!-- main manu section -->
                 <div class="main-manu">
                     <ul>
                         <li>
-                            <a class="home-color" href="file:///E:/Appointment-system/index.html">Home</a>
+                            <a class="home-color" href="./index.html">Home</a>
                         </li>
                         <li class="doctor-arrow">
                             <a href="a-link">Doctors
@@ -274,52 +277,169 @@
                     <i class="fas fa-dollar-sign"></i>
                     150-250 per hour
                 </h3>
-                <div class="doctor-callout" >
-                   <a id="fav-btn" class="fav-icons" href="#">
-                    <i class="far fa-bookmark"></i>
-                </a>
-                <a id="fav-btn" class="fav-icons" href="#">
-                    <i class="far fa-comment-alt"></i>
-                </a>
-                <a id="fav-btn" class="fav-icons" href="#">
-                    <i class="fas fa-phone"></i>
-                 </a>
-                <a id="fav-btn" class="fav-icons" href="#">
-                    <i class="fas fa-video"></i>
-                </a>
+                <div class="doctor-callout">
+                    <a id="fav-btn" class="fav-icons" href="#">
+                        <i class="far fa-bookmark"></i>
+                    </a>
+                    <a id="fav-btn" class="fav-icons" href="#">
+                        <i class="far fa-comment-alt"></i>
+                    </a>
+                    <a id="fav-btn" class="fav-icons" href="#">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a id="fav-btn" class="fav-icons" href="#">
+                        <i class="fas fa-video"></i>
+                    </a>
                 </div>
-              
+
                 <div class="clinical-pro-btn">
                     <a href="#">Book Appointment</a>
                 </div>
             </div>
         </div>
-      <div class="dr-card01">
-        <div class="drprofile-cardbody">
-            <nav class="card-usertab">
-<ul class="nav-tabs">
-    <li class="nav-items">
-        <a href="#" data-toggle="tab" class="dr-navlink">Overview</a>
-    </li>
-    <li class="nav-items">
-        <a href="#" data-toggle="tab" class="dr-navlink">Locations</a>
+        <div class="body_container border g-0 shadow-sm">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#overview">Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#location">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#review">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#business">Business Hours</a>
+                </li>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="overview">
+                        <div class="row  ">
+                            <div class="col-auto p-4">
+                                <h3>About me</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima odit deserunt sunt
+                                    officiis odio a molestias. Aspernatur, ad. Cumque quod officiis voluptates
+                                    repudiandae eius, repellendus officia nihil sint quasi ab dolorem quis in fugiat
+                                    quidem neque dicta sed tempora tenetur molestiae sapiente ullam! Nesciunt minima
+                                    libero asperiores quis praesentium exercitationem suscipit ullam reiciendis quod
+                                    veritatis nobis iste dolorum vero, beatae expedita nostrum, nisi fugiat omnis
+                                    consectetur! Qui autem quos tempora.</p>
 
-    </li>
-    <li class="nav-items">
-        <a href="#" data-toggle="tab" class="dr-navlink">Reviews</a>
+                                <div class="experience-content">
+                                    <div class="timeline-content">
+                                        <!-- education -->
+                                        <h3>Education</h3>
+                                        <h4 class="experience-h4">
+                                            <a href="#" class="name"><i class="far fa-circle fas-dot"></i>American
+                                                Dental Medical University</a>
+                                        </h4>
+                                        <h5>BDS</h5>
+                                        <span class="time">1998 - 2003</span>
+                                        <h4 class="experience-h4">
+                                            <a href="#" class="name"><i class="far fa-circle fas-dot"></i>American
+                                                Dental Medical University</a>
+                                        </h4>
+                                        <h5>BDS</h5>
+                                        <span class="time">2003 - 2005</span>
+                                    </div>
+                                    <div class="timeline-content">
+                                        <!-- work and Experience -->
+                                        <h3> Work & Experience</h3>
+                                        <h4 class="experience-h4">
+                                            <a href="#" class="name"><i class="far fa-circle fas-dot"></i>Glowing Smiles
+                                                Family Dental Clinic</a>
+                                        </h4>
+                                        <h5>2010 - Present (5 years)</h5>
 
-    </li>
-    <li class="nav-items">
-        <a href="#" data-toggle="tab" class="dr-navlink">Business Hours</a>
+                                        <h4 class="experience-h4">
+                                            <a href="#" class="name"><i class="far fa-circle fas-dot"></i>Comfort Care
+                                                Dental Clinic</a>
+                                        </h4>
+                                        <h5>2007 - 2010 (3 years)</h5>
 
-    </li>
-</ul>
-            </nav>
+                                        <h4 class="experience-h4">
+                                            <a href="#" class="name"><i class="far fa-circle fas-dot"></i>Dream Smile
+                                                Dental Practice</a>
+                                        </h4>
+                                        <h5>2005 - 2007 (2 years)</h5>
+                                    </div>
+                                    <div class="timeline-content">
+                                        <h3>Awards</h3>
+                                        <h6><i class="far fa-circle fas-dot"></i> July 2019</h6>
+                                        <div class="p-8">Humanitarian Award</div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+                                            consectetur laudantium alias ea ut porro voluptatem voluptas deleniti
+                                            adipisci eos!</p>
+
+                                        <h6><i class="far fa-circle fas-dot"></i> March 2011</h6>
+                                        <div class="p-8">Certificate for International Volunteer Service</div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+                                            consectetur laudantium alias ea ut porro voluptatem voluptas deleniti
+                                            adipisci eos!</p>
+
+                                        <h6><i class="far fa-circle fas-dot"></i> May 2008</h6>
+                                        <div class="p-8">The Dental Professional of The Year Award</div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+                                            consectetur laudantium alias ea ut porro voluptatem voluptas deleniti
+                                            adipisci eos!</p>
+                                    </div>
+                                    <div class="service-content">
+                                        <h3>Services</h3>
+                                        <ul class="service-ul">
+                                            <li>Tooth cleaning</li>
+                                            <li>Root Canal Therapy</li>
+                                            <li>Implants</li>
+                                            <li>Surgical Extractions</li>
+                                            <li>Fissure Sealants</li>
+                                            <li>Composite Bonding</li>
+                                        </ul>
+
+                                        <h3>Specializations</h3>
+                                        <ul class="service-ul">
+                                            <li>Children Care</li>
+                                            <li>Dental Care</li>
+                                            <li>Oral and Maxillofacial Surgery</li>
+                                            <li>Orthodontist</li>
+                                            <li>Periodontist</li>
+                                            <li>Prosthodontics</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="location">
+                        <div class="row ">
+                            <div class="col p-4">
+                                <h3>location</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat mollitia quis
+                                    ducimus numquam maiores ex assumenda nostrum ea nam alias!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="review">
+                        <div class="row ">
+                            <div class="col p-4">
+                                <h3>Review</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat mollitia quis
+                                    ducimus numquam maiores ex assumenda nostrum ea nam alias!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="business">
+                        <div class="row ">
+                            <div class="col p-4">
+                                <h3>Business Hour</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat mollitia quis
+                                    ducimus numquam maiores ex assumenda nostrum ea nam alias!</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </ul>
         </div>
-      </div>
     </div>
-
-
 
 
 
@@ -411,3 +531,9 @@
             <p> © 2020 WEBPENTER. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
