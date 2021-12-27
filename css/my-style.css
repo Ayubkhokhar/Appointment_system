@@ -6,11 +6,11 @@ body{
     box-sizing: border-box;
 }
 .main-header {
-    height: 70px;
+    height: 82px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
-    }
+}
     .header-grid {
         display: grid;
         grid-template-columns: 10% 45% 20% 16%;
@@ -45,14 +45,12 @@ body{
     .main-manu ul li a{ 
         text-decoration: none;
         font-family: "Poppins",sans-serif;
-        font-weight: 400;
+        font-weight: 600;
        color: black;
        font-size: 14px;
-    
     }
-    .home-color{
-        color: #dc3545 !important;
-    }
+
+   
     
     .doctor-arrow a::after{
         content: "";
@@ -1477,7 +1475,7 @@ margin-bottom: -20px;
     color: slategray;
     font-size: 14px;
 }
-.dsp-detail ul{
+.dsp-detail ul, .location_gallery ul{
     list-style: none;
     margin: 0;
     padding-left: 0;
@@ -1486,7 +1484,7 @@ margin-bottom: -20px;
     display: inline-block;
     padding-right: 5px;
 }
-.dsp-detail ul li a img{
+.dsp-detail ul li a img, .location_gallery ul li img{
     border-radius: 5px;
     width: 40px;
 }
@@ -1646,4 +1644,53 @@ margin-bottom: -20px;
     margin-top: 25px;
     margin-bottom: -2px;
     font-size: 20px;
+}
+/* location css in dr profile page  */
+.location_list{
+    border: 1px solid #e8e1e1;
+    padding: 20px;
+    width: 112%;
+    margin: 23px;
+}
+.location-grid{
+    display: grid;
+    grid-template-columns: 57% 19% 22%;
+    grid-gap: 2%;
+
+}
+#adress-location{
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+.locationgrid_details{
+    width: 100%;
+}
+.locationgrid_details h3 a{
+    color: rgb(54, 41, 41);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.locationgrid_details p{
+    color: rgb(92, 87, 87);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top:2px ;
+}
+.locationgrid_pricing p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #2b2525;
+}
+.location-map a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #dc3545;
+    cursor: pointer;
+
 }
